@@ -8,6 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <title>个人主页</title>
     <style>
+        /* 添加平滑滚动效果 */
         html {
             scroll-behavior: smooth;
         }
@@ -29,35 +30,28 @@
     <section id="info" class="container mx-auto p-8 pt-20">
         <div class="bg-white rounded-lg shadow-md p-8">
             <h2 class="text-3xl font-bold text-gray-800 mb-4">个人信息</h2>
-            <div class="flex flex-col md:flex-row items-center">
-                <!-- 头像 -->
-                <div class="mb-4 md:mb-0 md:mr-8">
-                    <img src="kitty.jpg.jpg" alt="头像" class="rounded-full w-40 h-40">
-                </div>
-                <!-- 信息列表 -->
-                <ul class="list-none">
-                    <li class="flex items-center mb-2">
-                        <i class="fa-solid fa-user text-gray-600 mr-2"></i>
-                        <span class="text-gray-700">姓名: 陆庆鸿</span>
-                    </li>
-                    <li class="flex items-center mb-2">
-                        <i class="fa-solid fa-hashtag text-gray-600 mr-2"></i>
-                        <span class="text-gray-700">学号: 2412190709</span>
-                    </li>
-                    <li class="flex items-center mb-2">
-                        <i class="fa-solid fa-building-columns text-gray-600 mr-2"></i>
-                        <span class="text-gray-700">学校: 浙江工商大学</span>
-                    </li>
-                    <li class="flex items-center mb-2">
-                        <i class="fa-solid fa-chalkboard-user text-gray-600 mr-2"></i>
-                        <span class="text-gray-700">班级: 计科类2407</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i class="fa-solid fa-envelope text-gray-600 mr-2"></i>
-                        <span class="text-gray-700">邮箱: lu5874644664@163.com</span>
-                    </li>
-                </ul>
-            </div>
+            <ul class="list-none">
+                <li class="flex items-center mb-2">
+                    <i class="fa-solid fa-user text-gray-600 mr-2"></i>
+                    <span class="text-gray-700">姓名: 陆庆鸿</span>
+                </li>
+                <li class="flex items-center mb-2">
+                    <i class="fa-solid fa-hashtag text-gray-600 mr-2"></i>
+                    <span class="text-gray-700">学号: 2412190709</span>
+                </li>
+                <li class="flex items-center mb-2">
+                    <i class="fa-solid fa-building-columns text-gray-600 mr-2"></i>
+                    <span class="text-gray-700">学校:浙江工商大学</span>
+                </li>
+                <li class="flex items-center mb-2">
+                    <i class="fa-solid fa-chalkboard-user text-gray-600 mr-2"></i>
+                    <span class="text-gray-700">班级: 计科类2407</span>
+                </li>
+                <li class="flex items-center">
+                    <i class="fa-solid fa-envelope text-gray-600 mr-2"></i>
+                    <span class="text-gray-700">邮箱: lu5874644664@163.com</span>
+                </li>
+            </ul>
         </div>
     </section>
 
